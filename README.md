@@ -1,227 +1,269 @@
-# TailAdmin Vue - Free Vue.js Tailwind CSS Admin Dashboard Template
+<p align="center">
+  <img src="./banner.png" alt="Satyaloka Apps Banner" width="100%">
+</p>
 
-TailAdmin Vue is a free, open-source admin dashboard template **built on Vue.js**, popular and progressive JavaScript
-framework, and **Tailwind CSS**. This **powerful combination** provides developers with an extensive library of
-essential components, elements, and pages to launch a comprehensive and data-centric back-end, dashboard, or admin panel
-solution for any Vue.js based web projects.
+<h1 align="center">Satyaloka Apps</h1>
 
-![TailAdmin Vue.js Dashboard Preview](./banner.png)
+<p align="center">
+  <b>Platform Digital Paguyuban Warga</b><br>
+  Transparan • Adil • Terorganisir
+</p>
 
-With TailAdmin Vue, you can leverage **Vue.js 3** features such as declarative rendering, component-based architecture,
-Vue Router for routing, and Pinia for state management. It also utilizes the power of Tailwind CSS for rapid UI
-development with its low-level utility classes and responsive design capabilities.
+<p align="center">
 
-## Overview
+![Version](https://img.shields.io/badge/version-1.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Vue](https://img.shields.io/badge/vue-3.x-42b883)
+![Tailwind](https://img.shields.io/badge/tailwindcss-4.x-38bdf8)
+![Status](https://img.shields.io/badge/status-active-success)
 
-TailAdmin provides essential UI components and layouts for building feature-rich, data-driven admin dashboards and control panels. It's built on:
+</p>
 
-- Vue 3.x (Vite)
-- Tailwind CSS 4.x
-- TypeScript
+---
 
-### Quick Links
+# 🌏 Satyaloka Apps
 
-- [✨ Visit Website](https://tailadmin.com)
-- [📄 Documentation](https://tailadmin.com/docs)
-- [⬇️ Download](https://tailadmin.com/download)
-- [🖌️ Figma Design File (Community Edition)](https://www.figma.com/community/file/1463141366275764364)
-- [⚡ Get PRO Version](https://tailadmin.com/pricing)
+**Satyaloka Apps** adalah platform digital untuk mengelola **komunitas warga, paguyuban perumahan, RT/RW, dan lingkungan** secara **transparan, adil, dan terorganisir**.
 
-### Demos
+Satyaloka membantu pengurus dan warga mengelola:
 
-- [Free Version](https://free-vue-demo.tailadmin.com/)
-- [Pro Version](https://vue-demo.tailadmin.com)
+- Administrasi warga  
+- Keuangan komunitas  
+- Iuran lingkungan  
+- Komunikasi warga  
+- Agenda kegiatan  
 
-### Other Versions
+Semua dalam **satu sistem terpadu**.
 
-- [HTML Version](https://github.com/TailAdmin/tailadmin-free-tailwind-dashboard-template)
-- [Next.js Version](https://github.com/TailAdmin/free-nextjs-admin-dashboard)
-- [React Version](https://github.com/TailAdmin/free-react-tailwind-admin-dashboard)
-- [Angular Version](https://github.com/TailAdmin/free-angular-tailwind-dashboard)
+---
 
-## Installation
+# ✨ Filosofi Satyaloka
 
-### Prerequisites
+Nama **Satyaloka** berasal dari bahasa Sanskerta:
 
-To get started with TailAdmin, ensure you have the following prerequisites installed and set up:
+| Kata | Arti |
+|-----|-----|
+| **Satya** | Kebenaran, kejujuran |
+| **Loka** | Dunia, ruang kehidupan |
 
-- Node.js 18.x or later (recommended to use Node.js 20.x or later)
-- Recommended IDE Setup: [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Makna filosofinya:
 
-#### Type Support for `.vue` Imports in TS
+> **“Ruang kehidupan yang dijalankan dengan kejujuran dan transparansi.”**
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+Satyaloka menjadi **ruang digital bagi komunitas warga untuk hidup rukun, terbuka, dan saling percaya.**
 
-### Cloning the Repository
+---
 
-Clone the repository using the following command:
+# 🎯 Tujuan Aplikasi
+
+Satyaloka hadir untuk menyelesaikan masalah umum dalam pengelolaan paguyuban:
+
+- ❌ Keuangan tidak transparan  
+- ❌ Data warga tidak terpusat  
+- ❌ Komunikasi warga tidak efektif  
+- ❌ Administrasi lingkungan tidak rapi  
+
+Dengan Satyaloka:
+
+- ✅ Semua data tersimpan rapi  
+- ✅ Keuangan dapat dipantau bersama  
+- ✅ Komunikasi lebih mudah  
+- ✅ Administrasi lebih efisien  
+
+---
+
+# 🚀 Fitur Utama
+
+## 👨‍👩‍👧‍👦 Manajemen Warga
+
+Mengelola data warga secara terpusat.
+
+Fitur:
+
+- Data kepala keluarga
+- Data anggota keluarga
+- Status kepemilikan rumah
+- Riwayat penghuni
+
+Manfaat:
+
+✔ Pendataan warga lebih rapi  
+✔ Informasi penghuni mudah dicari  
+
+---
+
+## 💰 Transparansi Keuangan
+
+Sistem kas warga yang terbuka dan mudah dipantau.
+
+Fitur:
+
+- Pemasukan kas
+- Pengeluaran kas
+- Riwayat transaksi
+- Laporan keuangan
+- Grafik statistik
+
+Manfaat:
+
+✔ Keuangan komunitas transparan  
+✔ Meningkatkan kepercayaan warga  
+
+---
+
+## 🧾 Sistem Iuran Warga
+
+Pengelolaan iuran lingkungan secara digital.
+
+Fitur:
+
+- Pencatatan iuran bulanan
+- Status pembayaran warga
+- Riwayat pembayaran
+
+Manfaat:
+
+✔ Memudahkan pencatatan pembayaran  
+✔ Warga bisa memantau iuran mereka  
+
+---
+
+## 📢 Pengumuman Warga
+
+Media komunikasi resmi lingkungan.
+
+Fitur:
+
+- Pengumuman kegiatan
+- Informasi lingkungan
+- Agenda warga
+
+Manfaat:
+
+✔ Informasi cepat tersampaikan  
+✔ Komunikasi lebih efektif  
+
+---
+
+## 🧹 Kegiatan & Gotong Royong
+
+Mengelola aktivitas komunitas.
+
+Fitur:
+
+- Jadwal kerja bakti
+- Event lingkungan
+- Dokumentasi kegiatan
+
+---
+
+## 📊 Dashboard Statistik
+
+Dashboard visual untuk melihat kondisi komunitas.
+
+Menampilkan:
+
+- Total warga
+- Statistik keuangan
+- Grafik pemasukan & pengeluaran
+- Statistik pembayaran iuran
+
+---
+
+# 🛠 Teknologi
+
+Satyaloka dibangun dengan teknologi modern.
+
+| Layer | Teknologi |
+|------|-----------|
+| Frontend | Vue 3 |
+| Build Tool | Vite |
+| Styling | Tailwind CSS |
+| Language | TypeScript |
+| Database | PostgreSQL |
+| Backend | Supabase |
+| Chart | ApexCharts |
+
+---
+
+# ⚙️ Instalasi
+
+## Prasyarat
+
+Pastikan sudah menginstall:
+
+- Node.js 18+
+- npm atau yarn
+
+---
+
+## Clone Repository
 
 ```bash
-git clone https://github.com/TailAdmin/vue-tailwind-admin-dashboard.git
+git clone https://github.com/your-repo/satyaloka-apps.git
 ```
 
-> Windows Users: place the repository near the root of your drive if you face issues while cloning.
+Masuk ke folder project:
 
-1. Install dependencies:
+```bash
+cd satyaloka-apps
+```
 
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
+Install dependency:
 
-2. Start the development server:
+```bash
+npm install
+```
 
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   ```
+Jalankan development server:
 
-3. Production build:
-   ```bash
-   npm run build
-   # or
-   yarn build
-   ```
+```bash
+npm run dev
+```
 
-## Feature Comparison
+Build production:
 
-### Free Version
+```bash
+npm run build
+```
 
-- 1 Unique Dashboard
-- 50+ Dashboard UI components
-- Basic Figma design files
-- Community support
+---
 
-### Pro Version
+# 🌟 Visi Satyaloka
 
-- 7 Unique Dashboards: Analytics, Ecommerce, Marketing, CRM, Stocks (more coming soon)
-- 500+ dashboard components and UI elements
-- Complete Figma design file
-- Email support
+Satyaloka ingin membantu komunitas warga menjadi:
 
-To learn more about pro version features and pricing, visit our [pricing page](https://tailadmin.com/pricing).
+- lebih **transparan**
+- lebih **terorganisir**
+- lebih **terhubung**
+- lebih **percaya satu sama lain**
 
-## Components
+Satyaloka bukan hanya aplikasi administrasi, tetapi **platform untuk memperkuat budaya gotong royong digital.**
 
-TailAdmin is a pre-designed starting point for building a web-based dashboard using Vue.js and Tailwind CSS. The template includes:
+---
 
-- Sophisticated and accessible sidebar
-- Data visualization components
-- Prebuilt profile management and 404 page
-- Tables and Charts(Line and Bar)
-- Authentication forms and input elements
-- Alerts, Dropdowns, Modals, Buttons and more
-- Can't forget Dark Mode 🕶️
+# 🤝 Kontribusi
 
-All components are built with Vue and styled using Tailwind CSS for easy customization.
+Kontribusi sangat terbuka.
 
-## Features
+Langkah:
 
-**💎 High-quality, Premium Modern Design:**
-A thoughtfully designed dashboard template with a deep focus on UX/UI, already trusted and utilized by over 10K+ web apps worldwide.
+1. Fork repository
+2. Buat branch baru
+3. Kirim pull request
 
-**✨ Vue 3:**
-Get enhanced performance with the latest Vue version.
+---
 
-**⚡ Vite Build System:**
-Enjoy quick development with Vite, ensuring fast code compilation.
+# 📜 Lisensi
 
-**🔀 Vue Router:**
-Manage app navigation with ease using Vue Router for seamless transitions.
+Project ini bersifat **open-source** dan dapat digunakan untuk sistem komunitas, paguyuban warga, atau lingkungan perumahan.
 
-**💡 Reactive Utilities:**
-Enhance component reactivity with @vueuse/core utilities.
+---
 
-**📊 Charting with ApexCharts:**
-Visualize data with ApexCharts for beautiful analytics.
+<p align="center">
 
-**🗺️ Vector Maps with JSVectorMap:**
-Easily integrate interactive vector maps with JSVectorMap.
+**Satyaloka Apps**
 
-**🖌️ UI with Tailwind CSS:**
-Frontend UI built on the powerful and versatile Tailwind CSS framework.
+_Ruang digital untuk komunitas yang jujur, transparan, dan rukun._
 
-**💫 TypeScript Support:**
-Write safer, maintainable code with TailAdmin Vue's TypeScript Support.
-
-**✅ Linting and Formatting:**
-Maintain a clean codebase with built-in linting and formatting.
-
-**🗃️ State Management with Pinia:**
-Handle your app's state with Pinia for clean, organized code.
-
-## Update Logs
-
-### Version 2.0.2 - [December 30, 2025]
-
-#### Enhancements
-
-- Added date range picker to Statistics Chart component.
-- Improved responsive design for chart header.
-
-### Version 2.0.1 - [February 27, 2025]
-
-#### Update Overview
-
-- Upgraded to Tailwind CSS v4 for better performance and efficiency.
-- Updated class usage to match the latest syntax and features.
-- Replaced deprecated class and optimized styles.
-
-#### Next Steps
-
-- Run npm install or yarn install to update dependencies.
-- Check for any style changes or compatibility issues.
-- Refer to the Tailwind CSS v4 [Migration Guide](https://tailwindcss.com/docs/upgrade-guide) on this release. if needed.
-- This update keeps the project up to date with the latest Tailwind improvements. 🚀
-
-### Version 2.0.0 - [February 2025]
-
-Major update with Vue 3 migration and comprehensive redesign.
-
-#### Major Improvements
-
-- Complete migration to Vue 3 Composition API
-- Updated to Vue Router 4
-- Enhanced user interface with new Vue 3 components
-- Improved performance with Vue 3's virtual DOM
-- Better accessibility and responsive design
-
-#### New Features
-
-- Redesigned dashboards (Ecommerce, Analytics, Marketing, CRM)
-- Collapsible sidebar with Vue 3 integration
-- Enhanced navigation with Vue Router 4
-- Real-time chat functionality
-- Full-featured calendar with drag-and-drop
-- Advanced table components
-- Updated data visualization with ApexCharts
-
-#### Breaking Changes
-
-- Requires Vue 3 and Vue Router 4
-- Chart components migrated to ApexCharts for Vue 3
-- Modified routing implementation
-- Updated component APIs for Vue 3 compatibility
-
-[Read more](https://tailadmin.com/docs/update-logs/vue) on this release.
-
-### Version 1.0.2 - [June 19, 2024]
-
-#### Issues
-
-- Fix Mobile Menu Hamburger Icon issue.
-
-### Version 1.0.1 - [Feb 08, 2024]
-
-#### Enhancements
-
-- Make it functional [Multiselect Dropdown/Form Elements].
-- Delete SelectGroup Components then create a SelectGroup folder and create two files under this
-  folder SelectGroupOne.vue SelectGroupTwo.vue [Select Group/Form Elements & Layout].
-- Update style.css file.
-
-### Version 1.0.0 - Initial Release - [Jan 22, 2024]
-
-- Initial release of TailAdmin Vue.
+</p>
